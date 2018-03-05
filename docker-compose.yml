@@ -1,0 +1,12 @@
+version: '2'
+services:
+    mysql:
+        container_name: database_upskilling
+        build: .
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_DATABASE: upskilling
+            MYSQL_USER: admin
+            MYSQL_PASSWORD: admin
+        ports:
+            - "3305:3306"
