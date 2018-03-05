@@ -17,5 +17,7 @@ docker-compose up
 
 ### Database credentials
 DATABASE NAME: upskilling
+
 DATABASE USER: admin
+
 DATABASE PASSWORD: admin
