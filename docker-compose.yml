@@ -1,6 +1,7 @@
 version: '2'
 services:
     mysql:
+        container_name: upskilling
         build: .
         environment:
             MYSQL_ROOT_PASSWORD: root
